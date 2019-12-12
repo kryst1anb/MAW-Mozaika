@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: #ffc400;
+}
+
+header {
+    
+    background-color: black;
+    color:white; 
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    position: fixed;
+    z-index: 2;
+}
+header section{
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    z-index: 2;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color:rgb(59, 59, 59);
+    text-align: center;
+}
+
+.mozaika {
+    position: absolute;
+}
+
+#kolo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #50edbb;
+}
+
+#trojkat{
+    width: 0; 
+    height: 0; 
+    border-left: 50px solid transparent; 
+    border-right: 50px solid transparent; 
+    border-bottom: 100px solid red; 
+}
+
+#kwadrat{
+    width: 100px; 
+    height: 100px; 
+    background: greenyellow; 
+}
