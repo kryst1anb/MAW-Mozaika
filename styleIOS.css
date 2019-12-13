@@ -2,6 +2,7 @@ body{
     width: 100%;
     margin: 0;
     background-color: #008537;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -19,12 +20,19 @@ header section{
     text-align: center;
 }
 
+#mozaika{
+    font-size: 20px;
+}
+
+#mozaika::after{
+    content: " IOS";
+}
+
 footer {
     z-index: 2;
     vertical-align: middle;
     font-weight: bold;
     font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -58,3 +66,11 @@ footer {
     height: 100px; 
     background: greenyellow; 
 }
+
+#trapezoid {
+    border-bottom: 100px solid orange;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+  }
