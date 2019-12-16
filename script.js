@@ -41,6 +41,8 @@ function ruch(width, height) {
         if (zdarzenie.changedTouches.length > 0) {
             ruchMyszkaLubDotykiem(zdarzenie.changedTouches[0]);
         }
+        zdarzenie.preventDefault();
+        zdarzenie.stopPropagation();
     }
     for (var i = 0; i < obiekty.length; i++) {
         var obiekt = obiekty[i];
